@@ -256,8 +256,8 @@ p { margin: 0; }
   position: absolute;
   inset: 0;
   background:
-    linear-gradient(110deg, rgba(5, 14, 22, 0.82) 0%, rgba(5, 14, 22, 0.48) 52%, rgba(5, 14, 22, 0.2) 100%),
-    linear-gradient(0deg, rgba(8, 40, 50, 0.5) 0%, transparent 55%);
+    linear-gradient(110deg, rgba(5, 14, 22, 0.88) 0%, rgba(5, 14, 22, 0.58) 52%, rgba(5, 14, 22, 0.28) 100%),
+    linear-gradient(0deg, rgba(8, 40, 50, 0.6) 0%, transparent 55%);
 }
 
 .hero-content {
@@ -1118,6 +1118,23 @@ p { margin: 0; }
   max-width: 62ch;
   margin-inline: auto;
   line-height: 1.55;
+}
+
+.footer-credit {
+  margin-top: 0.8rem;
+  font-size: 0.82rem;
+}
+
+.footer-credit a {
+  color: var(--sea);
+  text-decoration: none;
+  font-weight: 500;
+  transition: opacity 0.2s;
+}
+
+.footer-credit a:hover {
+  opacity: 0.7;
+  text-decoration: underline;
 }
 
 /* ─────────────────────────────────────────
